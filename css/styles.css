@@ -275,6 +275,7 @@ address {
 /*footer*/
 footer {
   background-color: var(--footer-background-color);
+  padding: 60px 0px;
 }
 
 .local-adress {
@@ -304,15 +305,14 @@ footer {
   margin: 0px;
 }
 .lf {
-  padding-top: 60px;
   padding-bottom: 20px;
 }
-.margin-footer {
-  margin-bottom: 9px;
+.margin-footer + .margin-footer {
+  margin-top: 9px;
 }
-.address-footer {
+/* .address-footer {
   padding-bottom: 60px;
-}
+} */
 
 /*PORTFOLIO*/
 .flex-button {
