@@ -272,6 +272,11 @@ address {
   margin-top: 0px;
   margin-bottom: 30px;
 }
+.icon {
+  width: 44px;
+  height: 44px;
+  fill: red;
+}
 /*footer*/
 footer {
   background-color: var(--footer-background-color);
