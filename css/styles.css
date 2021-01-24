@@ -272,11 +272,18 @@ address {
   margin-top: 0px;
   margin-bottom: 30px;
 }
+
 .icon {
   width: 44px;
   height: 44px;
-  fill: red;
+
+  fill: #afb1b8;
 }
+
+.link-inst {
+  background-color: var(--accent-color);
+}
+
 /*footer*/
 footer {
   background-color: var(--footer-background-color);
