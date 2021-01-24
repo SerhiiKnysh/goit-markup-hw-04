@@ -369,6 +369,12 @@ footer {
   margin-right: 30px;
   margin-bottom: 30px;
 }
+.card-project:hover,
+.card-project:focus {
+  cursor: pointer;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .card-project:nth-child(3n) {
   margin-right: 0px;
 }
@@ -400,4 +406,34 @@ footer {
 .projects {
   padding-bottom: 94px;
   padding-top: 94px;
+}
+
+.clients {
+  margin-top: 0px;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.flex-clients {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+
+.border-clients {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  padding: 20px 62px;
+}
+
+.client {
+  display: inline-block;
+}
+.logo-client {
+  width: 44px;
+  height: 49px;
+  fill: #afb1b8;
 }
