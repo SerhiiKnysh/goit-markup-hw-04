@@ -110,6 +110,17 @@ address {
 .addres-header {
   margin-left: auto;
 }
+
+.icon-header {
+  width: 16px;
+  height: 12px;
+  fill: currentColor;
+
+  margin-right: 10px;
+}
+.icon-header:hover {
+  fill: currentColor;
+}
 /*Hero*/
 .hero {
   background-color: var(--footer-background-color);
@@ -272,16 +283,18 @@ address {
   margin-top: 0px;
   margin-bottom: 30px;
 }
-
-.icon {
+.comand-link {
+  display: inline-block;
+}
+.comand-link:hover {
   width: 44px;
   height: 44px;
-
-  fill: #afb1b8;
+  background-color: var(--accent-color);
 }
 
-.link-inst {
-  background-color: var(--accent-color);
+.comand-link .icon {
+  width: 20px;
+  height: 20px;
 }
 
 /*footer*/
