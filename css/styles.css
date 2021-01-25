@@ -408,6 +408,10 @@ footer {
   padding-top: 94px;
 }
 
+/* Постоянные клиенты */
+.regular-clients {
+  padding: 94px 0px;
+}
 .clients {
   margin-top: 0px;
   margin-bottom: 50px;
@@ -426,14 +430,57 @@ footer {
 .border-clients {
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  height: 90px;
+  width: 170px;
+
   padding: 20px 62px;
+}
+.border-clients:hover {
+  border-color: var(--accent-color);
+}
+
+.border-clients + .border-clients {
+  margin-left: 30px;
 }
 
 .client {
   display: inline-block;
 }
+
 .logo-client {
+  fill: #afb1b8;
+}
+
+.logo-client:hover {
+  fill: var(--accent-color);
+}
+
+.logo-client.icon-ya-co {
   width: 44px;
   height: 49px;
-  fill: #afb1b8;
+}
+
+.logo-client.icon-tagline {
+  width: 40px;
+  height: 52px;
+}
+
+.logo-client.icon-company {
+  width: 41px;
+  height: 42px;
+}
+
+.logo-client.icon-foster-peters {
+  width: 80px;
+  height: 42px;
+}
+
+.logo-client.icon-brand {
+  width: 59px;
+  height: 47px;
+}
+
+.logo-client.icon-tag-line {
+  width: 88px;
+  height: 45px;
 }
