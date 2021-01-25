@@ -253,6 +253,7 @@ address {
 .flex-comand {
   display: flex;
   padding-left: 0px;
+  margin: 0px;
 }
 .person {
   background: #ffffff;
@@ -262,6 +263,7 @@ address {
 
   margin-right: 30px;
   text-align: center;
+  padding-bottom: 30px;
 }
 .person:nth-child(4) {
   margin-right: 0px;
@@ -281,21 +283,33 @@ address {
   letter-spacing: 0.03em;
   color: var(--main-color);
   margin-top: 0px;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 }
 .comand-link {
   display: inline-block;
-}
-.comand-link:hover {
   width: 44px;
   height: 44px;
+  padding: 12px;
+}
+.comand-link:hover {
   background-color: var(--accent-color);
+  border-radius: 50%;
+}
+.comand-link:hover .icon {
+  fill: var(--main-background-color);
+}
+.comand-link + .comand-link {
+  margin-left: 10px;
 }
 
 .comand-link .icon {
   width: 20px;
   height: 20px;
+  fill: #afb1b8;
 }
+/* .comand-link .icon:hover {
+  fill: var(--main-background-color);
+} */
 
 /*footer*/
 footer {
@@ -446,10 +460,13 @@ footer {
   height: 90px;
   width: 170px;
 
-  padding: 20px 62px;
+  /* padding: 20px 62px; */
 }
 .border-clients:hover {
   border-color: var(--accent-color);
+}
+.border-clients:hover .logo-client {
+  fill: var(--accent-color);
 }
 
 .border-clients + .border-clients {
@@ -458,15 +475,16 @@ footer {
 
 .client {
   display: inline-block;
+  padding: 20px 62px;
 }
 
 .logo-client {
   fill: #afb1b8;
 }
 
-.logo-client:hover {
+/* .logo-client:hover {
   fill: var(--accent-color);
-}
+} */
 
 .logo-client.icon-ya-co {
   width: 44px;
