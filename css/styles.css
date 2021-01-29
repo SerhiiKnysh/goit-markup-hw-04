@@ -143,8 +143,12 @@ address {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-background-color);
+
+  width: 696px;
   margin-top: 0px;
   margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0px;
   padding-top: 200px;
 }
@@ -304,11 +308,13 @@ address {
   height: 44px;
   padding: 12px;
 }
-.comand-link:hover {
+.comand-link:hover,
+.comand-link:focus {
   background-color: var(--accent-color);
   border-radius: 50%;
 }
-.comand-link:hover .icon {
+.comand-link:hover .icon,
+.comand-link:focus .icon {
   fill: var(--main-background-color);
 }
 .comand-link + .comand-link {
@@ -503,10 +509,12 @@ footer {
 
   /* padding: 20px 62px; */
 }
-.border-clients:hover {
+.border-clients:hover,
+.border-clients:focus {
   border-color: var(--accent-color);
 }
-.border-clients:hover .logo-client {
+.border-clients:hover .logo-client,
+.border-clients:focus .logo-client {
   fill: var(--accent-color);
 }
 
